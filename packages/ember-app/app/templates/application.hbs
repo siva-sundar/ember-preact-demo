@@ -1,0 +1,35 @@
+{{page-title 'EmberApp'}}
+<div class='ember-app'>
+  <div class='top-bar'>
+    <h1>
+      <img
+        src='https://emberjs.com/images/brand/ember-1c-on-dark-bg.svg'
+        width='134px'
+        alt='ember'
+        class='align-middle'
+      />
+    </h1>
+  </div>
+  <div class='container flex-grow-1'>
+    <div class='side-bar'>
+      <div>
+        <LinkTo @route='ember-route-one' class='list-item'>
+          ember route one
+        </LinkTo>
+      </div>
+      <div>
+        <LinkTo @route='ember-route-two' class='list-item'>
+          ember route two
+        </LinkTo>
+      </div>
+      <div>
+        <LinkTo @route='ember-exit-route' class='list-item'>
+          ember exit route
+        </LinkTo>
+      </div>
+    </div>
+    <div>
+      {{outlet}}
+    </div>
+  </div>
+</div>

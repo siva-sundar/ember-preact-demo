@@ -1,0 +1,13 @@
+{
+  "name": "ember-preact-demo",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/siva-sundar/ember-preact-demo.git",
+  "author": "sivakumar.sundaramurthi@zohocorp.com <sivakumar.sundaramurthi@zohocorp.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "nohoist": ["**/preact", "**/preact-render-to-string"]
+}

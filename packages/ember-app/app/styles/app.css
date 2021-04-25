@@ -1,0 +1,61 @@
+.ember-app {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right:0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.top-bar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #e04e39;
+}
+.side-bar {
+  width: 180px;
+  border-right: 1px solid #F8E7CF;
+  font-size: 20px;
+  padding-top: 20px;
+  background-color: #FFFDF9;
+}
+
+.side-bar .list-item {
+  color: #9b2918;
+  line-height: 1.25;
+  display: block;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 0;
+  text-align: center;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding: 0px 15px;
+}
+h2 {
+  padding: 5px 12px;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
