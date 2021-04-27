@@ -10,14 +10,7 @@ export default defineConfig({
     alias: {
       'preact-app': path.resolve(__dirname, './src'),
       react: 'preact-compat',
-      'react-dom': 'preact-compat',
-      // need to be revisited.
-      ...process.env.CI && {
-        'preact/devtools': 'preact-app/node_modules/preact/devtools/src/index.js',
-        'preact/hooks': 'preact-app/node_modules/preact/hooks/src/index.js',
-        'preact/compat': 'preact-app/node_modules/preact/compat/src/index.js',
-        preact: 'preact-app/node_modules/preact/src/index.js'
-      }
+      'react-dom': 'preact-compat'
     }
   },
   build: {

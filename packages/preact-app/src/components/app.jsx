@@ -7,7 +7,7 @@ import Profile from "preact-app/routes/profile/index.jsx";
 
 const App = () => (
   <div id="app">
-    <Router>
+    <Router basename="ember-exit-route">
       <Header />
       <Switch>
         <Route exact path="/">

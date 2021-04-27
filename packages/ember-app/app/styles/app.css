@@ -16,7 +16,7 @@
 }
 
 .top-bar {
-  height: 70px;
+  height: 56px;
   display: flex;
   align-items: center;
   background-color: #e04e39;
@@ -58,4 +58,17 @@ h2 {
 
 .align-middle {
   vertical-align: middle;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+#preact-app {
+  position: relative;
+  margin: 5px;
 }

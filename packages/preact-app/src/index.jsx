@@ -3,4 +3,6 @@ import App from "preact-app/components/app";
 import { render } from "preact";
 export default App;
 
-render(<App />, document.getElementById("preact-app"));
+window.renderPreactApp = function (element) {
+  render(<App />, element);
+};

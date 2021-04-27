@@ -1,3 +1,10 @@
 {{page-title 'EmberExitRoute'}}
-<div></div>
-{{outlet}}
+<div class='flex-grow-1 flex'>
+  {{#asset-loader tagName='' as |isAssestLoading|}}
+    {{#if isAssestLoading}}
+      {{svg-jar 'loading' width='100px'}}
+    {{else}}
+      <div id="preact-app" class="flex-1"></div>
+    {{/if}}
+  {{/asset-loader}}
+</div>
