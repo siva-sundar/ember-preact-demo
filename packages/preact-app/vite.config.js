@@ -13,10 +13,10 @@ export default defineConfig({
       'react-dom': 'preact-compat',
       // need to be revisited.
       ...process.env.CI && {
-        'preact/devtools': 'payouts-console/node_modules/preact/devtools/src/index.js',
-        'preact/hooks': 'payouts-console/node_modules/preact/hooks/src/index.js',
-        'preact/compat': 'payouts-console/node_modules/preact/compat/src/index.js',
-        preact: 'payouts-console/node_modules/preact/src/index.js'
+        'preact/devtools': 'preact-app/node_modules/preact/devtools/src/index.js',
+        'preact/hooks': 'preact-app/node_modules/preact/hooks/src/index.js',
+        'preact/compat': 'preact-app/node_modules/preact/compat/src/index.js',
+        preact: 'preact-app/node_modules/preact/src/index.js'
       }
     }
   },
